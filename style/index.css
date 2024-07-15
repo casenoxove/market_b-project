@@ -1,0 +1,118 @@
+header {}
+header p {
+    background-color: #D2E6FA;
+    text-align: center;
+    padding: 13px 0;
+}
+header p em {
+    font-weight: 700;
+}
+header .nav_fir {
+    padding-left: 155px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+header .nav_fir .top_left {
+    display: flex;
+    align-items: center;
+}
+header .nav_fir .top_left .logo {}
+header .nav_fir .top_left .logo a {}
+header .nav_fir .top_left .logo a img {}
+header .nav_fir .top_left .top_left {
+    margin-left: 55px;
+}
+header .nav_fir .top_left .top_left a {
+    margin-right: 35px;
+    font-weight: 700;
+}
+header .nav_fir .top_right {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-right: 100px;
+}
+header .nav_fir .top_right form {
+    margin-right: 100px;
+}
+header .nav_fir .top_right form::after {}
+header .nav_fir .top_right form fieldset {}
+header .nav_fir .top_right form fieldset legend {}
+header .nav_fir .top_right form fieldset input {
+    border: 0;
+}
+header .nav_fir .top_right form fieldset input::after {
+background-color: #000;
+position: absolute;
+left: 0; top: 0;
+width: 500px; height: 1px;
+}
+header .nav_fir .top_right_icon {}
+header .nav_fir .top_right_icon a {
+    margin-left: 30px;
+}
+header .nav_fir .top_right_icon a img {}
+header .nav_sec {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+header .nav_sec .sec_left {
+    padding-left: 155px;
+}
+header .nav_sec .sec_left a {
+    margin-right: 30px;
+}
+header .nav_sec .sec_left a em {
+    font-weight: 700;
+}
+header .nav_sec .sec_right {
+    padding-right: 100px;
+}
+header .nav_sec .sec_right a {
+    margin-left: 30px;
+}
+main .one {
+    margin-bottom: 100px;
+}
+main .one a {}
+main .one a img {}
+main .one a img {}
+main .two {
+    padding-left: 155px;
+}
+main .two .best_title {
+    display: flex;
+    align-items: end;
+}
+main .two .best_title .main_title {}
+main .two .best_title .main_title h2 {
+    font-size: 2.25rem;
+    font-weight: 700;
+}
+main .two .best_title .category {
+    display: flex;
+    margin-left: 35px;
+}
+main .two .best_title .category a {
+    font-size: 1.125rem;
+    margin-right: 25px;
+}
+main .two .best_title .category a em {
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+main .two .best_title .category .title_left {
+    margin-left: 630px;
+}
+main .two .best_title .category .title_left a {}
+main .two .best_product {
+    padding-top: 50px;
+    display: flex;
+}
+main .two .best_product .left {
+    display: flex;
+}
+main .two .best_product .left p {}
+main .two .best_product .left p img {}
