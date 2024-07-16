@@ -6,6 +6,9 @@
     <title>마켓비</title>
     <link rel="stylesheet" href="./style/reset.css">
     <link rel="stylesheet" href="./style/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -95,8 +98,10 @@
                         <h3>ROMBY 트롤리 카드 3단</h3>
                         <p>48%</p>
                     </div>
-                    <p><del>89,000원</del> 45,900원</p>
-                    <p>판매 <span>8,178</span> 리뷰 <span> 145</span></p>
+                    <div class="price">
+                        <p><del>89,000원</del> 45,900원</p>
+                        <p>판매 <span>8,178</span> 리뷰 <span> 145</span></p>
+                    </div>
                     <button type="button" id="more">more</button>
                 </div>
             </div>
@@ -118,8 +123,10 @@
                         <h3>마켓비 FILMON 시리즈</h3>
                         <p>66%</p>
                     </div>
-                    <p><del>79,800원</del> 26,900원</p>
-                    <p>판매 <span>59</span> 리뷰 <span> 21</span></p>
+                    <div class="price">
+                        <p><del>79,800원</del> 26,900원</p>
+                        <p>판매 <span>59</span> 리뷰 <span> 21</span></p>
+                    </div>
                 </div>
                 <div class="product_two">
                     <a href="#"><img src="./images/newpick2.png" alt=""></a>
@@ -127,8 +134,10 @@
                         <h3>RUDAN 접이식 의자 / 테이블</h3>
                         <p>31%</p>
                     </div>
-                    <p><del>63,900원</del> 44,000원</p>
-                    <p>판매 <span>183</span> 리뷰 <span> 39</span></p>
+                    <div class="price">
+                        <p><del>63,900원</del> 44,000원</p>
+                        <p>판매 <span>183</span> 리뷰 <span> 39</span></p>
+                    </div>
                 </div>
                 <div class="product_three">
                     <a href="#"><img src="./images/newpick3.png" alt=""></a>
@@ -136,8 +145,10 @@
                         <h3>MELODIO 단스탠드 E26</h3>
                         <p>8%</p>
                     </div>
-                    <p><del>18,300원</del> 16,900원</p>
-                    <p>판매 <span>252</span> 리뷰 <span> 9</span></p>
+                    <div class="price">
+                        <p><del>18,300원</del> 16,900원</p>
+                        <p>판매 <span>252</span> 리뷰 <span> 9</span></p>
+                    </div>
                 </div>
                 <div class="product_four">
                     <a href="#"><img src="./images/newpick4.png" alt=""></a>
@@ -145,8 +156,10 @@
                         <h3>네르센 패브릭 소파 1인</h3>
                         <p>26%</p>
                     </div>
-                    <p><del>16,000원</del> 11,900원</p>
-                    <p>판매 <span>51</span> 리뷰 <span> 2</span></p>
+                    <div class="price">
+                        <p><del>16,000원</del> 11,900원</p>
+                        <p>판매 <span>51</span> 리뷰 <span> 2</span></p>
+                    </div>
                 </div>
                 <div class="product_five">
                     <a href="#"><img src="./images/newpick5.png" alt=""></a>
@@ -154,16 +167,15 @@
                         <h3>마켓비 FILMON 시리즈</h3>
                         <p>66%</p>
                     </div>
-                    <p><del>79,800원</del> 26,900원</p>
-                    <p>판매 <span>15</span> 리뷰 <span> 7</span></p>
+                    <div class="price">
+                        <p><del>79,800원</del> 26,900원</p>
+                        <p>판매 <span>15</span> 리뷰 <span> 7</span></p>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="four">
             <a href="#"><img src="./images/eventbanner.png" alt=""></a>
-            <p><span>체험단 모집</span></p>
-            <h4>SIMPLE 투명 접이식 트롤리 & AMBO 1인 멀티 소파</h4>
-            <p>~2024년 06월 30일 (일) 까지</p>
         </div>
         <div class="five">
             <div class="magazine_title">
@@ -189,14 +201,16 @@
                 </div>
                 <div class="center">
                     <p><img src="./images/magazine_center.png" alt=""></p>
-                    <h3>컬러장인의 비비드 인테리어</h3>
-                    <p><em>MKB 캐비넷 체스트 서랍장 4칸 735830 옐로우</em></p>
+                    <div class="title">
+                        <h3>컬러장인의 비비드 인테리어</h3>
+                        <p>MKB 캐비넷 체스트 서랍장 4칸 735830 옐로우</p>
+                    </div>
                     <p>
                         쨍하고 상큼한 면모 파우더 코팅 마감으로 고급스러운 반무광 무드가 뿜뿜!<br>
                         눈에 띄는 비비드 컬러로 방에 여름을 만들어낼 수 있어요.<br>
                         핀터레스트 감성 넘쳐나는 컬러 맛집 마켓비로 놀러오세요.
                     </p>
-                    <p><span>@n_g_r_a_y 님의 인테리어</span></p>
+                    <p class="id"><span>@n_g_r_a_y 님의 인테리어</span></p>
                 </div>
                 <div class="right">
                     <p><img src="./images/magazine_right.png" alt=""></p>
@@ -207,7 +221,7 @@
             <div class="review_title">
                 <div class="main_title_left">
                     <h2>BEST REVIEW</h2>
-                    <P>#내돈내산 솔직한 리뷰</P>
+                    <p>#내돈내산 솔직한 리뷰</p>
                 </div>
                 <div class="main_title_right">
                     <a href="#">VIEW ALL</a>
@@ -257,7 +271,6 @@
             </div>
         </div>
         <div class="seven">
-            <p><img src="./images/business.png" alt=""></p>
             <div class="text">
                 <p><span>비지니스 파트너 모집</span></p>
                 <h3>이유있는 선택, 홈퍼니싱 대표 브랜드</h3>
